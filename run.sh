@@ -4,7 +4,7 @@ PORT=$2
 CHAT=$3
 # clone Odoo directory
 git clone --depth=1 https://github.com/eugomor/odoo-15-docker-compose $DESTINATION
-rm -rf $DESTINATION/.git
+#rm -rf $DESTINATION/.git
 # set permission
 mkdir -p $DESTINATION/postgresql
 sudo chmod -R 777 $DESTINATION
